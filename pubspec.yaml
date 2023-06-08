@@ -1,0 +1,36 @@
+name: b_28_sultonov_saidmalik_exam_6
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: HelveticaNeue
+      fonts:
+        - asset: assets/fonts/ helvetica_neue/Helvetica Neue Condensed Bold.ttf
+          weight: 700
+        - asset: assets/fonts/ helvetica_neue/Helvetica Neue 67 Medium Condensed.otf
+          weight: 400
+
+    - family: AirbnbCerealApp
+      fonts:
+        - asset: assets/fonts/ airbnb_cereal_app/AirbnbCereal_W_Bd.otf
+          weight: 700
